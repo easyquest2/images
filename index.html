@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EasyQuest Image Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      margin: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #5a2c73;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 30px;
+    }
+    .item {
+      border: 1px solid #ccc;
+      padding: 10px;
+      background: white;
+      width: 220px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .item img {
+      max-width: 200px;
+      height: auto;
+      display: block;
+      margin: 0 auto 10px;
+    }
+    .item a {
+      display: block;
+      font-size: 14px;
+      color: #333;
+      word-break: break-all;
+      text-decoration: none;
+    }
+    .item a:hover {
+      color: #e55aa0;
+    }
+  </style>
+</head>
+<body>
+  <h1>EasyQuest Images</h1>
+  <p>Click a link below to copy the direct URL for Neopets embeds.</p>
+
+  <div class="gallery">
+    <div class="item">
+      <img src="main.jpg" alt="main">
+      <a href="main.jpg">https://easyquest.shop/main.jpg</a>
+    </div>
+    <div class="item">
+      <img src="top.gif" alt="top">
+      <a href="top.gif">https://easyquest.shop/top.gif</a>
+    </div>
+    <!-- Add more items here as you upload -->
+  </div>
+</body>
+</html>
