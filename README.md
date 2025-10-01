@@ -1,10 +1,7 @@
-# EasyQuest Images
+# EasyQuest Image Hosting
 
-This repository is used for hosting images (banners, menus, etc.) for my Neopets projects.
+This repository is used to host images for EasyQuest projects.
 
-GitHub Pages is enabled, so any image uploaded here will be accessible at:
+Images are served through the custom domain:
 
-https://easyquest2.github.io/Images/<filename>
-
-Example:
-https://easyquest2.github.io/Images/faerie_fountain.png
+https://easyquest.shop/
